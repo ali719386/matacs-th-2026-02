@@ -2,7 +2,7 @@
 
 **Name:** Ali Hasnain
 **Reference:** MATACS-TH-2026-02
-**Time actually spent:** TODO_FILL_ME
+**Time actually spent:** About 1 hour
 
 ## What is in this repository
 
@@ -20,6 +20,6 @@ The AI reads each proposal and pulls out facts, with a word-for-word quote as ev
 
 ## How I used AI
 
-TODO_FILL_ME (2 to 3 sentences on which tools you used and for what).
+I made the design decisions myself (pipeline steps, where AI stops and code takes over, how to handle Proposals B, C and D, and the scoring rubric) and wrote them up as a detailed brief for Claude Code. Claude Code then drafted the files, computed the scores from my rubric and generated the diagram. I reviewed every file and checked the scores against the rubric.
 
-AI disagreement: TODO_FILL_ME
+AI disagreement: My own estimate put Proposal A in the high 80s, but the AI's calculation from my rubric gave 93.2. The AI noted that switching to fixed anchors would bring A into the 80s. I re-checked the arithmetic and kept my rubric unchanged, because tuning a rubric to hit an expected number defeats the point of a fixed, explainable scoring rule.
